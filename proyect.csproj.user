@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="BotonCircular.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="BotonRedondeado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormContactos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormGestorUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormLlamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormReportar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRutas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUbicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PanelRedondeado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="TextBoxRedondeado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
