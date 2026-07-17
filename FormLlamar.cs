@@ -52,10 +52,20 @@ namespace proyect
 
         private void botonRedondeado1_Click(object sender, EventArgs e)
         {
-            // Cierra esta ventana y te devuelve al Dashboard principal automáticamente
+            FormDashboard dashboard = new FormDashboard();
+            dashboard.Show();
             this.Close();
         }
 
+        private void FormLlamar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

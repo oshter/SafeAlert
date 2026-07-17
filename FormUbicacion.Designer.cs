@@ -43,9 +43,10 @@
             // 
             lblLatitud.AutoSize = true;
             lblLatitud.Font = new Font("Segoe UI", 11.25F);
-            lblLatitud.Location = new Point(12, 66);
+            lblLatitud.Location = new Point(17, 110);
+            lblLatitud.Margin = new Padding(4, 0, 4, 0);
             lblLatitud.Name = "lblLatitud";
-            lblLatitud.Size = new Size(166, 20);
+            lblLatitud.Size = new Size(259, 31);
             lblLatitud.TabIndex = 0;
             lblLatitud.Text = "Latitud: Cargando GPS...";
             // 
@@ -54,9 +55,10 @@
             panelRedondeado1.BackColor = Color.SteelBlue;
             panelRedondeado1.Controls.Add(botonRedondeado1);
             panelRedondeado1.Controls.Add(label1);
-            panelRedondeado1.Location = new Point(0, -17);
+            panelRedondeado1.Location = new Point(0, -28);
+            panelRedondeado1.Margin = new Padding(4, 5, 4, 5);
             panelRedondeado1.Name = "panelRedondeado1";
-            panelRedondeado1.Size = new Size(372, 80);
+            panelRedondeado1.Size = new Size(531, 133);
             panelRedondeado1.TabIndex = 1;
             // 
             // botonRedondeado1
@@ -65,9 +67,10 @@
             botonRedondeado1.FlatStyle = FlatStyle.Flat;
             botonRedondeado1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonRedondeado1.ForeColor = Color.White;
-            botonRedondeado1.Location = new Point(0, 17);
+            botonRedondeado1.Location = new Point(0, 28);
+            botonRedondeado1.Margin = new Padding(4, 5, 4, 5);
             botonRedondeado1.Name = "botonRedondeado1";
-            botonRedondeado1.Size = new Size(68, 56);
+            botonRedondeado1.Size = new Size(97, 93);
             botonRedondeado1.TabIndex = 2;
             botonRedondeado1.Text = " ←";
             botonRedondeado1.UseVisualStyleBackColor = true;
@@ -78,9 +81,10 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(142, 32);
+            label1.Location = new Point(203, 53);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(116, 25);
+            label1.Size = new Size(176, 40);
             label1.TabIndex = 3;
             label1.Text = "UBICACIÓN";
             // 
@@ -88,9 +92,10 @@
             // 
             lblLongitud.AutoSize = true;
             lblLongitud.Font = new Font("Segoe UI", 11.25F);
-            lblLongitud.Location = new Point(12, 86);
+            lblLongitud.Location = new Point(17, 143);
+            lblLongitud.Margin = new Padding(4, 0, 4, 0);
             lblLongitud.Name = "lblLongitud";
-            lblLongitud.Size = new Size(179, 20);
+            lblLongitud.Size = new Size(279, 31);
             lblLongitud.TabIndex = 2;
             lblLongitud.Text = "Longitud: Cargando GPS...";
             // 
@@ -98,9 +103,10 @@
             // 
             lblPrecision.AutoSize = true;
             lblPrecision.Font = new Font("Segoe UI", 11.25F);
-            lblPrecision.Location = new Point(12, 106);
+            lblPrecision.Location = new Point(17, 177);
+            lblPrecision.Margin = new Padding(4, 0, 4, 0);
             lblPrecision.Name = "lblPrecision";
-            lblPrecision.Size = new Size(230, 20);
+            lblPrecision.Size = new Size(355, 31);
             lblPrecision.TabIndex = 4;
             lblPrecision.Text = "Estado: Conectando con satélite...";
             // 
@@ -109,22 +115,24 @@
             mapaWeb.AllowExternalDrop = true;
             mapaWeb.CreationProperties = null;
             mapaWeb.DefaultBackgroundColor = Color.White;
-            mapaWeb.Location = new Point(12, 129);
+            mapaWeb.Location = new Point(17, 215);
+            mapaWeb.Margin = new Padding(4, 5, 4, 5);
             mapaWeb.Name = "mapaWeb";
-            mapaWeb.Size = new Size(348, 504);
+            mapaWeb.Size = new Size(487, 801);
             mapaWeb.TabIndex = 5;
             mapaWeb.ZoomFactor = 1D;
             // 
             // FormUbicacion
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(372, 645);
+            ClientSize = new Size(531, 1050);
             Controls.Add(mapaWeb);
             Controls.Add(lblPrecision);
             Controls.Add(lblLongitud);
             Controls.Add(panelRedondeado1);
             Controls.Add(lblLatitud);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FormUbicacion";
             Text = "FormUbicacion";
             Load += FormUbicacion_Load;

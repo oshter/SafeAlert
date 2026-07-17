@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UTS2026\\Downloads\\proyect\\proyect.csproj": {}
+    "C:\\Users\\alan_\\SafeAlertNew\\SafeAlert_proyect\\proyect\\proyect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UTS2026\\Downloads\\proyect\\proyect.csproj": {
+    "C:\\Users\\alan_\\SafeAlertNew\\SafeAlert_proyect\\proyect\\proyect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UTS2026\\Downloads\\proyect\\proyect.csproj",
+        "projectUniqueName": "C:\\Users\\alan_\\SafeAlertNew\\SafeAlert_proyect\\proyect\\proyect.csproj",
         "projectName": "proyect",
-        "projectPath": "C:\\Users\\UTS2026\\Downloads\\proyect\\proyect.csproj",
-        "packagesPath": "C:\\Users\\UTS2026\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UTS2026\\Downloads\\proyect\\obj\\",
+        "projectPath": "C:\\Users\\alan_\\SafeAlertNew\\SafeAlert_proyect\\proyect\\proyect.csproj",
+        "packagesPath": "C:\\Users\\alan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan_\\SafeAlertNew\\SafeAlert_proyect\\proyect\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\UTS2026\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,11 +55,11 @@
           "dependencies": {
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.Web.WebView2": {
               "target": "Package",
-              "version": "[1.0.4022.49, )"
+              "version": "[1.0.4078.44, )"
             }
           },
           "imports": [

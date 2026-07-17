@@ -23,7 +23,6 @@ namespace proyect
 
             if (buscador.ShowDialog() == DialogResult.OK)
             {
-                // Carga la foto en el PictureBox grande que pusiste al centro
                 picPreview.Image = Image.FromFile(buscador.FileName);
             }
         }
@@ -37,17 +36,20 @@ namespace proyect
 
         private void botonRedondeado3_Click(object sender, EventArgs e)
         {
-            // 1. Mostrar un aviso de éxito profesional al ciudadano
             MessageBox.Show("¡Tu reporte ha sido enviado con éxito a la central!\n\n" +
                             "Las autoridades revisarán la descripción y la evidencia fotográfica adjunta.",
                             "REPORTE CIUDADANO RECIBIDO",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Information);
 
-            // 2. Regresar al Dashboard principal de forma limpia
             FormDashboard dashboard = new FormDashboard();
             dashboard.Show();
-            this.Close(); // Cierra esta ventana de reporte por completo
+            this.Close();
+
+        }
+
+        private void FormReportar_Load(object sender, EventArgs e)
+        {
 
         }
     }

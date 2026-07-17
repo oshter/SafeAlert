@@ -17,7 +17,6 @@ namespace proyect
 
         private void FormUbicacion_Load(object sender, EventArgs e)
         {
-            // Coordenadas reales exactas de la UTS
             double latitudReal = 27.3516;
             double longitudReal = -109.9004;
 
@@ -26,7 +25,6 @@ namespace proyect
             lblLongitud.Text = "Longitud Actual: " + longitudReal.ToString();
             lblPrecision.Text = "Estado GPS: Conectado a Red UTSS (Señal Estable)";
 
-            // Dirección directa hacia las coordenadas de la universidad
             string direccion = "https://openstreetmap.org";
             mapaWeb.Source = new Uri(direccion);
         
@@ -36,7 +34,9 @@ namespace proyect
 
         private void botonRedondeado1_Click(object sender, EventArgs e)
         {
-            
+
+            FormDashboard dashboard = new FormDashboard();
+            dashboard.Show();
             this.Close();
 
         }

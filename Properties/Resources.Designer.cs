@@ -83,6 +83,16 @@ namespace proyect.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_07_16_093532 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-07-16 093532", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cruz_roja {
             get {
                 object obj = ResourceManager.GetObject("cruz-roja", resourceCulture);

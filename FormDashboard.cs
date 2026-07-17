@@ -10,7 +10,7 @@ namespace proyect
         private int intensidadRojo = 255;
         private bool disminuyendo = true;
 
-        private string cadenaConexion = @"Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True;";
+        private string cadenaConexion = @"Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True;";
 
         public FormDashboard()
         {
@@ -24,17 +24,10 @@ namespace proyect
 
         private void FormDashboard_Load(object sender, EventArgs e)
         {
+          
 
 
-
-            // 1. Centramos en el eje X (Izquierda a Derecha)
-            int coordenadaX = (this.ClientSize.Width - botonCircular1.Width) / 2;
-
-            // 2. Centramos en Y pero le restamos 40 para SUBIRLO y despegarlo de los textos
-            int coordenadaY = ((this.ClientSize.Height - botonCircular1.Height) / 2) - 75;
-
-            // 3. Aplicamos la nueva posición
-            botonCircular1.Location = new Point(coordenadaX, coordenadaY);
+          
         }
 
 
@@ -71,7 +64,7 @@ namespace proyect
         private void botonRedondeado1_Click(object sender, EventArgs e)
         {
 
-            // Convertimos el 'sender' en un control genérico para obtener su posición
+           
             Control botonAsociado = (Control)sender;
             contextMenuStrip1.Show(botonAsociado, new Point(0, botonAsociado.Height));
         }
@@ -85,7 +78,7 @@ namespace proyect
         {
             FormPerfil perfil = new FormPerfil(cadenaConexion);
 
-            perfil.ShowDialog(); // ShowDialog abre la ventana encima sin cerrar el Dashboard
+            perfil.ShowDialog(); 
 
         }
 
@@ -96,7 +89,7 @@ namespace proyect
             login.Show();
 
             login.Show();
-            this.Close(); // Cierra el panel actual
+            this.Close(); 
         }
 
 
@@ -124,10 +117,9 @@ namespace proyect
         private void miPerfilToolStripMenuItem_Click(object sender, EventArgs e)
         {
             {
-                // 1. Le pasamos la variable cadenaConexion al crear el formulario
                 FormPerfil perfil = new FormPerfil(cadenaConexion);
 
-                // 2. Lo abrimos como ShowDialog para que actúe como ventana emergente sin ocultar el Dashboard
+               
                 perfil.ShowDialog();
             }
 
@@ -143,18 +135,18 @@ namespace proyect
         private void botonCircular1_Click(object sender, EventArgs e)
         {
 
-            // 1. Reproduce un sonido de alerta del sistema
+           
             System.Media.SystemSounds.Asterisk.Play();
 
-            // 2. Mostrar el aviso de confirmación
+           
             MessageBox.Show("¡ALERTA ENVIADA CON ÉXITO!\n\n" +
                             "Se ha enviado tu señal de auxilio a la central de policía.\n" +
                             "Enviando coordenadas de GPS actuales...",
                             "SISTEMA DE EMERGENCIA CITIZEN",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Warning);
-            
-            string cadenaConexion = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+
+            string cadenaConexion = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string insertQuery = "INSERT INTO Reportes (CorreoUsuario, TipoIncidente, Descripcion, Estado) VALUES (@Correo, @Tipo, @Descripcion, @Estado)";
             string detallesEmergencia = "¡BOTÓN DE PÁNICO ACTIVADO! Ubicación simulada: Universidad Tecnológica del Sur de Sonora (UTSS). Coordenadas GPS fijas: Latitud 27.3516, Longitud -109.9004.";
 
@@ -164,7 +156,7 @@ namespace proyect
                 {
                     conexion.Open();
 
-                   
+
                     using (SqlCommand comando = new SqlCommand(insertQuery, conexion))
                     {
                         comando.Parameters.AddWithValue("@Correo", UsuarioSesion.Correo);
@@ -174,7 +166,7 @@ namespace proyect
                         comando.ExecuteNonQuery();
                     }
 
-                   
+
                     string queryContactos = "SELECT NombreContacto, TelefonoContacto FROM ContactosConfianza WHERE CorreoUsuario = @Correo";
                     List<string> listaContactosNotificados = new List<string>();
 
@@ -188,13 +180,12 @@ namespace proyect
                                 string nombreC = lector["NombreContacto"].ToString();
                                 string telC = lector["TelefonoContacto"].ToString();
 
-                                // Añadimos a la lista para el reporte visual en pantalla
                                 listaContactosNotificados.Add($"- {nombreC} ({telC})");
                             }
                         }
                     }
 
-                    
+
                     if (listaContactosNotificados.Count > 0)
                     {
                         string listaTexto = string.Join("\n", listaContactosNotificados);
@@ -210,7 +201,7 @@ namespace proyect
             }
 
 
-            // 3. Cambiamos el texto y color del botón
+           
             botonCircular1.Text = "ENVIANDO AUXILIO...";
             botonCircular1.BackColor = Color.DarkRed;
 
@@ -239,19 +230,20 @@ namespace proyect
         private void panelRedondeado2_Click(object sender, EventArgs e)
         {
             FormLlamar ventanaLlamar = new FormLlamar();
-            ventanaLlamar.ShowDialog();
-
+            ventanaLlamar.Show();
+            this.Hide();
         }
 
         private void panelRedondeado3_Paint(object sender, PaintEventArgs e)
         {
-
+           
         }
 
         private void panelRedondeado3_Click(object sender, EventArgs e)
         {
             FormUbicacion ventanaUbicacion = new FormUbicacion();
-            ventanaUbicacion.ShowDialog();
+            ventanaUbicacion.Show();
+            this.Hide();
         }
 
         private void contactosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -270,6 +262,13 @@ namespace proyect
 
         private void botonCircular2_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void gestorDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormGestorUsuarios ventanaGestor = new FormGestorUsuarios();
+            ventanaGestor.ShowDialog(); // Abre el panel de control administrativo encima sin ocultar el Dashboard
 
         }
     }

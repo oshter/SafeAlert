@@ -48,6 +48,7 @@
             ubicacionesHabitualesToolStripMenuItem = new ToolStripMenuItem();
             configuraciónToolStripMenuItem = new ToolStripMenuItem();
             historialDeReportesToolStripMenuItem = new ToolStripMenuItem();
+            gestorDToolStripMenuItem = new ToolStripMenuItem();
             cerrarSesiónToolStripMenuItem = new ToolStripMenuItem();
             panelRedondeado1.SuspendLayout();
             panelRedondeado2.SuspendLayout();
@@ -58,26 +59,31 @@
             // 
             // botonCircular1
             // 
-            botonCircular1.BackColor = Color.Red;
+            botonCircular1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            botonCircular1.BackColor = Color.Transparent;
+            botonCircular1.BackgroundImageLayout = ImageLayout.Stretch;
             botonCircular1.FlatAppearance.BorderSize = 0;
             botonCircular1.FlatStyle = FlatStyle.Flat;
             botonCircular1.Font = new Font("Segoe UI Black", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            botonCircular1.ForeColor = Color.White;
+            botonCircular1.ForeColor = Color.Transparent;
             botonCircular1.Image = (Image)resources.GetObject("botonCircular1.Image");
-            botonCircular1.Location = new Point(70, 87);
+            botonCircular1.Location = new Point(107, 153);
+            botonCircular1.Margin = new Padding(4, 5, 4, 5);
             botonCircular1.Name = "botonCircular1";
-            botonCircular1.Size = new Size(225, 227);
+            botonCircular1.Size = new Size(306, 306);
             botonCircular1.TabIndex = 0;
             botonCircular1.UseVisualStyleBackColor = false;
             botonCircular1.Click += botonCircular1_Click;
             // 
             // panelRedondeado1
             // 
+            panelRedondeado1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panelRedondeado1.BackColor = Color.White;
             panelRedondeado1.Controls.Add(label1);
-            panelRedondeado1.Location = new Point(70, 346);
+            panelRedondeado1.Location = new Point(92, 537);
+            panelRedondeado1.Margin = new Padding(4, 5, 4, 5);
             panelRedondeado1.Name = "panelRedondeado1";
-            panelRedondeado1.Size = new Size(225, 34);
+            panelRedondeado1.Size = new Size(321, 57);
             panelRedondeado1.TabIndex = 1;
             panelRedondeado1.Click += panelRedondeado1_Click;
             panelRedondeado1.Paint += panelRedondeado1_Paint_1;
@@ -87,19 +93,22 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(192, 64, 0);
-            label1.Location = new Point(58, 9);
+            label1.Location = new Point(83, 15);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(113, 15);
+            label1.Size = new Size(173, 25);
             label1.TabIndex = 0;
             label1.Text = "Reportar Incidente";
             // 
             // panelRedondeado2
             // 
+            panelRedondeado2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panelRedondeado2.BackColor = Color.White;
             panelRedondeado2.Controls.Add(label2);
-            panelRedondeado2.Location = new Point(70, 417);
+            panelRedondeado2.Location = new Point(92, 655);
+            panelRedondeado2.Margin = new Padding(4, 5, 4, 5);
             panelRedondeado2.Name = "panelRedondeado2";
-            panelRedondeado2.Size = new Size(225, 34);
+            panelRedondeado2.Size = new Size(321, 57);
             panelRedondeado2.TabIndex = 2;
             panelRedondeado2.Click += panelRedondeado2_Click;
             panelRedondeado2.Paint += panelRedondeado2_Paint;
@@ -109,19 +118,22 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(192, 0, 0);
-            label2.Location = new Point(45, 10);
+            label2.Location = new Point(64, 17);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(126, 15);
+            label2.Size = new Size(196, 25);
             label2.TabIndex = 0;
             label2.Text = "Llamar a Emergencias";
             // 
             // panelRedondeado3
             // 
+            panelRedondeado3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panelRedondeado3.BackColor = Color.White;
             panelRedondeado3.Controls.Add(label3);
-            panelRedondeado3.Location = new Point(70, 496);
+            panelRedondeado3.Location = new Point(92, 769);
+            panelRedondeado3.Margin = new Padding(4, 5, 4, 5);
             panelRedondeado3.Name = "panelRedondeado3";
-            panelRedondeado3.Size = new Size(225, 34);
+            panelRedondeado3.Size = new Size(321, 57);
             panelRedondeado3.TabIndex = 3;
             panelRedondeado3.Click += panelRedondeado3_Click;
             panelRedondeado3.Paint += panelRedondeado3_Paint;
@@ -131,9 +143,10 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Navy;
-            label3.Location = new Point(77, 9);
+            label3.Location = new Point(110, 15);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(61, 15);
+            label3.Size = new Size(96, 25);
             label3.TabIndex = 0;
             label3.Text = "Ubicación";
             // 
@@ -142,20 +155,22 @@
             panelRedondeado4.BackColor = Color.SteelBlue;
             panelRedondeado4.Controls.Add(label4);
             panelRedondeado4.Controls.Add(btnMenú);
-            panelRedondeado4.Location = new Point(-3, -12);
+            panelRedondeado4.Location = new Point(-4, -20);
+            panelRedondeado4.Margin = new Padding(4, 5, 4, 5);
             panelRedondeado4.Name = "panelRedondeado4";
-            panelRedondeado4.Size = new Size(362, 76);
+            panelRedondeado4.Size = new Size(517, 127);
             panelRedondeado4.TabIndex = 4;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(49, 27);
+            label4.Location = new Point(71, 49);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(313, 25);
+            label4.Size = new Size(429, 36);
             label4.TabIndex = 0;
             label4.Text = "PANEL DE CONTROL CIUDADANO";
             // 
@@ -165,9 +180,10 @@
             btnMenú.FlatStyle = FlatStyle.Flat;
             btnMenú.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMenú.ForeColor = Color.White;
-            btnMenú.Location = new Point(3, 14);
+            btnMenú.Location = new Point(4, 23);
+            btnMenú.Margin = new Padding(4, 5, 4, 5);
             btnMenú.Name = "btnMenú";
-            btnMenú.Size = new Size(72, 49);
+            btnMenú.Size = new Size(103, 82);
             btnMenú.TabIndex = 5;
             btnMenú.Text = "≡";
             btnMenú.UseVisualStyleBackColor = true;
@@ -181,70 +197,79 @@
             // 
             // contextMenuStrip1
             // 
-            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { inicioToolStripMenuItem, miPerfilToolStripMenuItem, contactosToolStripMenuItem, ubicacionesHabitualesToolStripMenuItem, configuraciónToolStripMenuItem, historialDeReportesToolStripMenuItem, cerrarSesiónToolStripMenuItem });
+            contextMenuStrip1.ImageScalingSize = new Size(24, 24);
+            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { inicioToolStripMenuItem, miPerfilToolStripMenuItem, contactosToolStripMenuItem, ubicacionesHabitualesToolStripMenuItem, configuraciónToolStripMenuItem, historialDeReportesToolStripMenuItem, gestorDToolStripMenuItem, cerrarSesiónToolStripMenuItem });
             contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(198, 158);
+            contextMenuStrip1.Size = new Size(267, 260);
             // 
             // inicioToolStripMenuItem
             // 
             inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            inicioToolStripMenuItem.Size = new Size(197, 22);
+            inicioToolStripMenuItem.Size = new Size(266, 32);
             inicioToolStripMenuItem.Text = "Inicio";
             inicioToolStripMenuItem.Click += inicioToolStripMenuItem_Click;
             // 
             // miPerfilToolStripMenuItem
             // 
             miPerfilToolStripMenuItem.Name = "miPerfilToolStripMenuItem";
-            miPerfilToolStripMenuItem.Size = new Size(197, 22);
+            miPerfilToolStripMenuItem.Size = new Size(266, 32);
             miPerfilToolStripMenuItem.Text = "Mi perfil";
             miPerfilToolStripMenuItem.Click += miPerfilToolStripMenuItem_Click;
             // 
             // contactosToolStripMenuItem
             // 
             contactosToolStripMenuItem.Name = "contactosToolStripMenuItem";
-            contactosToolStripMenuItem.Size = new Size(197, 22);
+            contactosToolStripMenuItem.Size = new Size(266, 32);
             contactosToolStripMenuItem.Text = "Contactos";
             contactosToolStripMenuItem.Click += contactosToolStripMenuItem_Click;
             // 
             // ubicacionesHabitualesToolStripMenuItem
             // 
             ubicacionesHabitualesToolStripMenuItem.Name = "ubicacionesHabitualesToolStripMenuItem";
-            ubicacionesHabitualesToolStripMenuItem.Size = new Size(197, 22);
+            ubicacionesHabitualesToolStripMenuItem.Size = new Size(266, 32);
             ubicacionesHabitualesToolStripMenuItem.Text = "Ubicaciones Habituales";
             ubicacionesHabitualesToolStripMenuItem.Click += ubicacionesHabitualesToolStripMenuItem_Click;
             // 
             // configuraciónToolStripMenuItem
             // 
             configuraciónToolStripMenuItem.Name = "configuraciónToolStripMenuItem";
-            configuraciónToolStripMenuItem.Size = new Size(197, 22);
+            configuraciónToolStripMenuItem.Size = new Size(266, 32);
             configuraciónToolStripMenuItem.Text = "Configuración";
             configuraciónToolStripMenuItem.Click += configuraciónToolStripMenuItem_Click_1;
             // 
             // historialDeReportesToolStripMenuItem
             // 
             historialDeReportesToolStripMenuItem.Name = "historialDeReportesToolStripMenuItem";
-            historialDeReportesToolStripMenuItem.Size = new Size(197, 22);
+            historialDeReportesToolStripMenuItem.Size = new Size(266, 32);
             historialDeReportesToolStripMenuItem.Text = "Historial De Reportes";
             historialDeReportesToolStripMenuItem.Click += historialDeReportesToolStripMenuItem_Click;
+            // 
+            // gestorDToolStripMenuItem
+            // 
+            gestorDToolStripMenuItem.Name = "gestorDToolStripMenuItem";
+            gestorDToolStripMenuItem.Size = new Size(266, 32);
+            gestorDToolStripMenuItem.Text = "Gestor de Usuarios";
+            gestorDToolStripMenuItem.Click += gestorDToolStripMenuItem_Click;
             // 
             // cerrarSesiónToolStripMenuItem
             // 
             cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            cerrarSesiónToolStripMenuItem.Size = new Size(197, 22);
+            cerrarSesiónToolStripMenuItem.Size = new Size(266, 32);
             cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
             cerrarSesiónToolStripMenuItem.Click += cerrarSesiónToolStripMenuItem_Click;
             // 
             // FormDashboard
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(356, 600);
+            ClientSize = new Size(509, 913);
             Controls.Add(panelRedondeado4);
             Controls.Add(panelRedondeado3);
             Controls.Add(panelRedondeado2);
             Controls.Add(panelRedondeado1);
             Controls.Add(botonCircular1);
+            Margin = new Padding(4, 5, 4, 5);
+            MinimumSize = new Size(531, 969);
             Name = "FormDashboard";
             Text = "FormDashboard";
             FormClosed += FormDashboard_FormClosed;
@@ -282,5 +307,6 @@
         private ToolStripMenuItem cerrarSesiónToolStripMenuItem;
         private ToolStripMenuItem contactosToolStripMenuItem;
         private ToolStripMenuItem ubicacionesHabitualesToolStripMenuItem;
+        private ToolStripMenuItem gestorDToolStripMenuItem;
     }
 }

@@ -19,12 +19,13 @@ namespace proyect
         private void FormGestorUsuarios_Load(object sender, EventArgs e)
         {
             ListarUsuarios();
+            txtBuscador.textBox.TextChanged += (s, ev) => { BuscarUsuario(); };
+
         }
 
-        // 1. READ: LISTAR TODOS LOS REGISTRROS EN LA TABLA
         private void ListarUsuarios()
         {
-            string cnx = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string cnx = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string query = "SELECT Nombre, Correo, Telefono FROM Usuarios";
 
             try
@@ -44,8 +45,7 @@ namespace proyect
             catch (Exception ex) { MessageBox.Show("Error al listar usuarios: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
-        // 2. CREATE: BOTÓN REGISTRAR (AZUL)
-        private void btnRegistrar_Click(object sender, EventArgs e) // Asegúrate de hacer doble clic al botón azul en el diseño para enlazar este nombre
+        private void btnRegistrar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtNombreGestor.textBox.Text) ||
                 string.IsNullOrWhiteSpace(txtCorreoGestor.textBox.Text) ||
@@ -55,7 +55,7 @@ namespace proyect
                 return;
             }
 
-            string cnx = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string cnx = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string query = "INSERT INTO Usuarios (Nombre, Correo, Telefono, Password) VALUES (@Nombre, @Correo, @Telefono, @Pass)";
 
             try
@@ -83,7 +83,6 @@ namespace proyect
             catch (Exception ex) { MessageBox.Show("Error al registrar: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
-        // 3. EVENTO CELLCLICK: SUBIR DATOS DE LA TABLA A LAS CAJAS
         private void dgvUsuariosGestor_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dgvUsuariosGestor.CurrentRow != null && dgvUsuariosGestor.CurrentRow.Index >= 0)
@@ -95,12 +94,12 @@ namespace proyect
             }
         }
 
-        // 4. UPDATE: BOTÓN ACTUALIZAR (VERDE)
-        private void btnActualizar_Click(object sender, EventArgs e) // Asegúrate de hacer doble clic al botón verde en el diseño
+
+        private void btnActualizar_Click(object sender, EventArgs e)
         {
             if (dgvUsuariosGestor.CurrentRow == null) return;
 
-            string cnx = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string cnx = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string query = "UPDATE Usuarios SET Nombre = @Nombre, Telefono = @Telefono WHERE Correo = @Correo";
 
             try
@@ -128,8 +127,8 @@ namespace proyect
             catch (Exception ex) { MessageBox.Show("Error al actualizar: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
-        // 5. DELETE: BOTÓN DAR DE BAJA (ROJO)
-        private void btnEliminar_Click(object sender, EventArgs e) // Asegúrate de hacer doble clic al botón rojo en el diseño
+
+        private void btnEliminar_Click(object sender, EventArgs e)
         {
             if (dgvUsuariosGestor.CurrentRow == null) return;
             string correoEliminar = dgvUsuariosGestor.CurrentRow.Cells["Correo"].Value.ToString();
@@ -137,7 +136,7 @@ namespace proyect
             DialogResult confirmar = MessageBox.Show($"¿Está seguro de eliminar definitivamente al usuario {correoEliminar}?", "Baja Administrativa", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (confirmar == DialogResult.No) return;
 
-            string cnx = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string cnx = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string query = "DELETE FROM Usuarios WHERE Correo = @Correo";
 
             try
@@ -162,10 +161,10 @@ namespace proyect
             catch (Exception ex) { MessageBox.Show("Error al eliminar: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
-        // 6. BUSCAR POR FILTRADO DINÁMICO
+
         public void BuscarUsuario()
         {
-            string cnx = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string cnx = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string query = "SELECT Nombre, Correo, Telefono FROM Usuarios WHERE Correo LIKE @Buscar";
 
             try
@@ -185,5 +184,43 @@ namespace proyect
             catch (Exception ex) { MessageBox.Show("Error al buscar: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
+        private void btnRegistrar_Click_1(object sender, EventArgs e)
+        {
+            btnRegistrar_Click(sender, e);
+        }
+
+        private void btnActualizar_Click_1(object sender, EventArgs e)
+        {
+            btnActualizar_Click(sender, e);
+
+        }
+
+        private void btnDarBaja_Click(object sender, EventArgs e)
+        {
+
+            btnEliminar_Click(sender, e);
+        }
+
+
+        
+
+
+
+
+
+        private void btnMenú_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FormGestorUsuarios_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvUsuariosGestor_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

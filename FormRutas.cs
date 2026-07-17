@@ -23,7 +23,6 @@ namespace proyect
 
         private void FormRutas_Load(object sender, EventArgs e)
         {
-            // Carga las rutas en cuanto abre la pantalla
             CargarRutas();
         }
 
@@ -32,7 +31,7 @@ namespace proyect
 
         private void CargarRutas()
         {
-            string cnx = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string cnx = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string query = "SELECT IdUbicacion AS [ID], NombreRuta AS [Ruta], LatitudBase AS [Latitud], LongitudBase AS [Longitud], RadioTolerancia AS [Tolerancia (m)] FROM UbicacionesHabituales WHERE CorreoUsuario = @Correo";
 
             try
@@ -65,7 +64,7 @@ namespace proyect
                 return;
             }
 
-            string cnx = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string cnx = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string insertQuery = "INSERT INTO UbicacionesHabituales (CorreoUsuario, NombreRuta, LatitudBase, LongitudBase, RadioTolerancia) VALUES (@Correo, @Nombre, @Lat, @Lon, @Radio)";
 
             try
@@ -110,7 +109,7 @@ namespace proyect
             DialogResult confirmar = MessageBox.Show($"¿Estás seguro de que deseas eliminar la ruta '{nombreRuta}'?", "Confirmar Eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (confirmar == DialogResult.No) return;
 
-            string cnx = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string cnx = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string deleteQuery = "DELETE FROM UbicacionesHabituales WHERE IdUbicacion = @Id";
 
             try
@@ -134,7 +133,6 @@ namespace proyect
         {
             if (dataGridView1.CurrentRow != null && dataGridView1.CurrentRow.Index >= 0)
             {
-                // Subimos los datos del renglón seleccionado a tus cajas de texto
                 txtNombreRuta.textBox.Text = dataGridView1.CurrentRow.Cells["Ruta"].Value.ToString();
                 txtLatitud.textBox.Text = dataGridView1.CurrentRow.Cells["Latitud"].Value.ToString();
                 txtLongitud.textBox.Text = dataGridView1.CurrentRow.Cells["Longitud"].Value.ToString();
@@ -147,7 +145,7 @@ namespace proyect
             if (dataGridView1.CurrentRow == null) return;
             string idRuta = dataGridView1.CurrentRow.Cells["ID"].Value.ToString();
 
-            string cnx = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string cnx = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string updateQuery = "UPDATE UbicacionesHabituales SET NombreRuta = @Nombre, LatitudBase = @Lat, LongitudBase = @Lon, RadioTolerancia = @Radio WHERE IdUbicacion = @Id";
 
             try
@@ -166,7 +164,7 @@ namespace proyect
                     }
                 }
                 MessageBox.Show("¡Ruta modificada con éxito!", "SafeAlert", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                CargarRutas(); // Refresca la tabla
+                CargarRutas(); 
             }
             catch (Exception ex) { MessageBox.Show("Error al modificar: " + ex.Message); }
         }

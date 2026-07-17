@@ -11,14 +11,12 @@ namespace proyect
 {
     public partial class FormPerfil : Form
     {
-        // 1. Agrega esta línea para almacenar la conexión
         private string cnxPerfil;
 
-        // 2. Modifica el constructor para que acepte el argumento (string cadena)
         public FormPerfil(string cadena)
         {
             InitializeComponent();
-            cnxPerfil = cadena; // Guardamos la conexión
+            cnxPerfil = cadena; 
             txtNombreCompleto1.textBox.Text = string.IsNullOrWhiteSpace(UsuarioSesion.Nombre) ? "Registra tu nombre aquí" : UsuarioSesion.Nombre;
             txtCorreo1.textBox.Text = UsuarioSesion.Correo;
             txtTelefono1.textBox.Text = string.IsNullOrWhiteSpace(UsuarioSesion.Telefono) ? "Registra tu teléfono aquí" : UsuarioSesion.Telefono;
@@ -29,7 +27,6 @@ namespace proyect
 
         private void FormPerfil_Load(object sender, EventArgs e)
         {
-            // Código para hacer la foto circular (usando pictureBox2 como acordamos)
             pictureBox2.Width = 100;
             pictureBox2.Height = 100;
             System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
@@ -37,7 +34,6 @@ namespace proyect
             pictureBox2.Region = new System.Drawing.Region(path);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            // --- EVALUAR SI EL USUARIO TIENE FOTO O SI LA OMITIÓ ---
             if (!string.IsNullOrWhiteSpace(UsuarioSesion.RutaFoto) && System.IO.File.Exists(UsuarioSesion.RutaFoto))
             {
                 pictureBox2.Image = Image.FromFile(UsuarioSesion.RutaFoto);
@@ -55,14 +51,12 @@ namespace proyect
 
         private void botonRedondeado1_Click(object sender, EventArgs e)
         {
-            // 1. Validar que no dejen campos obligatorios vacíos
             if (string.IsNullOrEmpty(txtNombreCompleto1.textBox.Text) || string.IsNullOrEmpty(txtCorreo1.textBox.Text))
             {
                 MessageBox.Show("El nombre y el correo son campos obligatorios.", "Campos Requeridos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // 2. Tu cadena de conexión (usando la variable que pasamos al constructor)
             string cadenaConexion = cnxPerfil;
             string updateQuery = "UPDATE Usuarios SET Nombre = @Nombre, Telefono = @Telefono WHERE Correo = @CorreoActual";
 
@@ -73,16 +67,14 @@ namespace proyect
                     conexion.Open();
                     using (SqlCommand comando = new SqlCommand(updateQuery, conexion))
                     {
-                        // Pasamos los textos que el usuario escribió en las cajas redondeadas
                         comando.Parameters.AddWithValue("@Nombre", txtNombreCompleto1.textBox.Text.Trim());
                         comando.Parameters.AddWithValue("@Telefono", txtTelefono1.textBox.Text.Trim());
-                        comando.Parameters.AddWithValue("@CorreoActual", UsuarioSesion.Correo); // Usamos el correo en memoria como llave
+                        comando.Parameters.AddWithValue("@CorreoActual", UsuarioSesion.Correo); 
 
                         int filasAfectadas = comando.ExecuteNonQuery();
 
                         if (filasAfectadas > 0)
                         {
-                            // 3. ¡MUY IMPORTANTE! Actualizamos también la memoria RAM de inmediato
                             UsuarioSesion.Nombre = txtNombreCompleto1.textBox.Text.Trim();
                             UsuarioSesion.Telefono = txtTelefono1.textBox.Text.Trim();
 
@@ -104,7 +96,6 @@ namespace proyect
 
         private void botonRedondeado3_Click(object sender, EventArgs e)
         {
-            // Abre el panel principal de nuevo y cierra la ventana de ubicación
 
             this.Close();
         }
@@ -116,14 +107,11 @@ namespace proyect
 
         private void botonRedondeado2_Click(object sender, EventArgs e)
         {
-            // 1. Solicitar la contraseña actual por seguridad
             string passActual = Microsoft.VisualBasic.Interaction.InputBox("Introduce tu contraseña actual:", "Verificación de Seguridad", "");
             if (string.IsNullOrWhiteSpace(passActual)) return;
 
-            // Encriptamos usando la función que ya tienes en Form1
             string passActualEncriptada = Form1.CalcularSHA256(passActual);
 
-            // 2. Conectar a la Base de Datos para verificar la contraseña actual
             string queryVerificar = "SELECT COUNT(*) FROM Usuarios WHERE Correo = @Correo AND Password = @Pass";
 
             using (SqlConnection conexion = new SqlConnection(cnxPerfil))
@@ -145,7 +133,6 @@ namespace proyect
                         }
                     }
 
-                    // 3. Si la contraseña actual es correcta, solicitar la nueva contraseña
                     string nuevaPass = Microsoft.VisualBasic.Interaction.InputBox("Introduce tu NUEVA contraseña:", "Nueva Contraseña", "");
                     if (string.IsNullOrWhiteSpace(nuevaPass)) return;
 
@@ -158,10 +145,8 @@ namespace proyect
                         return;
                     }
 
-                    // Encriptamos la nueva contraseña con la función de Form1
                     string nuevaPassEncriptada = Form1.CalcularSHA256(nuevaPass);
 
-                    // 4. Actualizar la contraseña en la base de datos
                     string queryUpdate = "UPDATE Usuarios SET Password = @NuevaPass WHERE Correo = @Correo";
                     using (SqlCommand comandoUpdate = new SqlCommand(queryUpdate, conexion))
                     {
@@ -181,7 +166,6 @@ namespace proyect
 
         private void btnEliminarCuenta_Click(object sender, EventArgs e)
         {
-            // 1. Advertencia de seguridad crítica para el usuario
             DialogResult confirmar = MessageBox.Show(
                 "¡ADVERTENCIA CRÍTICA!\n\n¿Está completamente seguro de eliminar su cuenta de SafeAlert de forma permanente?\nEsta acción no se puede deshacer y perderá todo su historial de reportes y contactos.",
                 "ELIMINAR CUENTA DEFINITIVAMENTE",
@@ -190,8 +174,7 @@ namespace proyect
 
             if (confirmar == DialogResult.No) return;
 
-            // 2. Ejecutar la baja en SQL Server
-            string perfil = "Data Source=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
+            string perfil = "Data Source=AMBAR-LAP;Initial Catalog=SafeAlertDB;Integrated Security=True;TrustServerCertificate=True";
             string deleteQuery = "DELETE FROM Usuarios WHERE Correo = @Correo";
 
             try
@@ -201,7 +184,6 @@ namespace proyect
                     conexion.Open();
                     using (SqlCommand comando = new SqlCommand(deleteQuery, conexion))
                     {
-                        // Buscamos al usuario usando su sesión global activa
                         comando.Parameters.AddWithValue("@Correo", UsuarioSesion.Correo);
                         comando.ExecuteNonQuery();
                     }
@@ -210,14 +192,11 @@ namespace proyect
                 // 3. Notificar el éxito de la baja
                 MessageBox.Show("Tu cuenta ha sido eliminada correctamente del sistema SafeAlert. Gracias por tu tiempo.", "Cuenta Eliminada", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                // 4. FLUJO DE NAVEGACIÓN SEGURO: Limpiar memoria RAM y reiniciar la app
-                // Limpiamos los datos globales de la sesión para que queden vacíos
                 UsuarioSesion.Correo = "";
                 UsuarioSesion.Nombre = "";
                 UsuarioSesion.Telefono = "";
                 UsuarioSesion.RutaFoto = "";
 
-                // Cerramos toda la aplicación por completo de forma limpia para que el usuario regrese al escritorio
                 Application.Exit();
             }
             catch (Exception ex)

@@ -1,138 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\UTS2026\\Downloads\\proyect\\",
+  "WorkspaceRootPath": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formcontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formcontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formcontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formcontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formcontactos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formcontactos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formgestorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formgestorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|C:\\Users\\UTS2026\\Downloads\\proyect\\formllamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formllamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|C:\\Users\\UTS2026\\Downloads\\proyect\\formubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|C:\\Users\\UTS2026\\Downloads\\proyect\\formreportar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\formreportar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formreportar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formreportar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formreportar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formgestorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\formgestorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formgestorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\formcontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formcontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\formrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\formubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\formgestorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formgestorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\formrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formrutas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\formreportar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formreportar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\usuariosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:usuariosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\formllamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formllamar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\textboxredondeado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:textboxredondeado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\panelredondeado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:panelredondeado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\botoncircular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:botoncircular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\botonredondeado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:botonredondeado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|C:\\Users\\UTS2026\\Downloads\\proyect\\textboxredondeado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:textboxredondeado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\uts2026\\downloads\\proyect\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|c:\\users\\alan_\\safealertnew\\proyect (3)\\proyect\\formubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F405C04-BD05-8171-9AE2-5B7BD490AAD5}|proyect.csproj|solutionrelative:formubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,416 +70,224 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1323641800:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormContactos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormContactos.Designer.cs",
-              "RelativeDocumentMoniker": "FormContactos.Designer.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormContactos.Designer.cs",
-              "RelativeToolTip": "FormContactos.Designer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T17:56:36.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T17:03:00.172Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FormContactos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormContactos.cs",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormContactos.cs",
               "RelativeDocumentMoniker": "FormContactos.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormContactos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormContactos.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormContactos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T16:54:52.094Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormPerfil.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormPerfil.cs",
-              "RelativeDocumentMoniker": "FormPerfil.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormPerfil.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormPerfil.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T16:33:08.623Z",
+              "WhenOpened": "2026-07-17T00:39:48.743Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormContactos.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormContactos.cs",
-              "RelativeDocumentMoniker": "FormContactos.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormContactos.cs",
-              "RelativeToolTip": "FormContactos.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAwwM4AAAAAAAAAAAAAAA==",
+              "Title": "FormGestorUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormGestorUsuarios.cs",
+              "RelativeDocumentMoniker": "FormGestorUsuarios.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormGestorUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormGestorUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T15:51:45.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-15T16:00:36.902Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormReportar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormReportar.cs",
+              "RelativeDocumentMoniker": "FormReportar.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormReportar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormReportar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T15:29:54.41Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormPerfil.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormPerfil.cs",
+              "RelativeDocumentMoniker": "FormPerfil.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormPerfil.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormPerfil.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T15:25:50.441Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormRutas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormRutas.cs",
+              "RelativeDocumentMoniker": "FormRutas.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormRutas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormRutas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T15:13:13.455Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAA3wKoAAAAAAAAAAAAAAA==",
+              "Title": "FormRegistro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormRegistro.cs",
+              "RelativeDocumentMoniker": "FormRegistro.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormRegistro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormRegistro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T14:56:47.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-17T00:46:22.666Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FormGestorUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormGestorUsuarios.cs",
-              "RelativeDocumentMoniker": "FormGestorUsuarios.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormGestorUsuarios.cs",
-              "RelativeToolTip": "FormGestorUsuarios.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwGAAAAAAAAAAAAAAAA==",
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T15:54:16.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAABB6wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T17:35:56.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormDashboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormDashboard.cs",
-              "RelativeDocumentMoniker": "FormDashboard.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormDashboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormDashboard.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T16:29:21.028Z",
+              "WhenOpened": "2026-07-17T00:45:58.6Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "FormRutas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormRutas.cs",
-              "RelativeDocumentMoniker": "FormRutas.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormRutas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormRutas.cs [Dise\u00F1o]",
+              "Title": "FormGestorUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormGestorUsuarios.cs",
+              "RelativeDocumentMoniker": "FormGestorUsuarios.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormGestorUsuarios.cs",
+              "RelativeToolTip": "FormGestorUsuarios.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAiwMgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T16:31:56.887Z",
+              "WhenOpened": "2026-07-15T14:53:57.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormUbicacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormUbicacion.cs",
+              "RelativeDocumentMoniker": "FormUbicacion.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormUbicacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormUbicacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T04:21:11.832Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "FormLlamar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormLlamar.cs",
-              "RelativeDocumentMoniker": "FormLlamar.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormLlamar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormLlamar.cs [Dise\u00F1o]",
+              "Title": "FormPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormPerfil.cs",
+              "RelativeDocumentMoniker": "FormPerfil.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormPerfil.cs",
+              "RelativeToolTip": "FormPerfil.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAtwKgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T17:16:33.234Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FormUbicacion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormUbicacion.cs",
-              "RelativeDocumentMoniker": "FormUbicacion.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormUbicacion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormUbicacion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:38:01.37Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormUbicacion.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormUbicacion.cs",
-              "RelativeDocumentMoniker": "FormUbicacion.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormUbicacion.cs",
-              "RelativeToolTip": "FormUbicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:38:27.114Z",
+              "WhenOpened": "2026-07-15T15:25:55.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "FormPerfil.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormPerfil.cs",
-              "RelativeDocumentMoniker": "FormPerfil.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormPerfil.cs",
-              "RelativeToolTip": "FormPerfil.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAYwMkAAAAmAAAAAAAAAA==",
+              "Title": "FormRutas.cs",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormRutas.cs",
+              "RelativeDocumentMoniker": "FormRutas.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormRutas.cs",
+              "RelativeToolTip": "FormRutas.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAuwGMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T14:46:35.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-15T15:13:15.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FormReportar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormReportar.cs",
-              "RelativeDocumentMoniker": "FormReportar.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormReportar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormReportar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T18:26:38.369Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "FormReportar.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormReportar.cs",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormReportar.cs",
               "RelativeDocumentMoniker": "FormReportar.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormReportar.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormReportar.cs",
               "RelativeToolTip": "FormReportar.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswCIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T19:11:53.958Z",
+              "WhenOpened": "2026-07-15T15:30:44.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormDashboard.cs",
+              "RelativeDocumentMoniker": "FormDashboard.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormDashboard.cs",
+              "RelativeToolTip": "FormDashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T04:23:25.14Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FormRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormRegistro.cs",
-              "RelativeDocumentMoniker": "FormRegistro.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormRegistro.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T16:31:39.402Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FormHistorial.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormHistorial.cs",
-              "RelativeDocumentMoniker": "FormHistorial.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormHistorial.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormHistorial.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T16:31:24.211Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "FormRutas.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormRutas.cs",
-              "RelativeDocumentMoniker": "FormRutas.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormRutas.cs",
-              "RelativeToolTip": "FormRutas.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAkwK0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T18:49:49.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FormGestorUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormGestorUsuarios.cs",
-              "RelativeDocumentMoniker": "FormGestorUsuarios.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormGestorUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormGestorUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T16:27:36.93Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FormRegistro.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormRegistro.cs",
-              "RelativeDocumentMoniker": "FormRegistro.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormRegistro.cs",
-              "RelativeToolTip": "FormRegistro.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAswHwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T14:57:09.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FormHistorial.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormHistorial.cs",
-              "RelativeDocumentMoniker": "FormHistorial.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormHistorial.cs",
-              "RelativeToolTip": "FormHistorial.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBIAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T15:07:28.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FormDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormDashboard.cs",
+              "Title": "FormDashboard.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormDashboard.cs",
               "RelativeDocumentMoniker": "FormDashboard.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormDashboard.cs",
-              "RelativeToolTip": "FormDashboard.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAwLQAAABiAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormDashboard.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormDashboard.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T18:32:35.93Z",
+              "WhenOpened": "2026-07-15T04:23:20.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormUbicacion.cs",
+              "DocumentMoniker": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormUbicacion.cs",
+              "RelativeDocumentMoniker": "FormUbicacion.cs",
+              "ToolTip": "C:\\Users\\alan_\\SafeAlertNew\\proyect (3)\\proyect\\FormUbicacion.cs",
+              "RelativeToolTip": "FormUbicacion.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T04:21:17.438Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 117,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FormDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormDashboard.Designer.cs",
-              "RelativeDocumentMoniker": "FormDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormDashboard.Designer.cs",
-              "RelativeToolTip": "FormDashboard.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T18:30:24.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T14:56:20.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UsuarioSesion.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\UsuarioSesion.cs",
-              "RelativeDocumentMoniker": "UsuarioSesion.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\UsuarioSesion.cs",
-              "RelativeToolTip": "UsuarioSesion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T15:27:58.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Sesion.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\Sesion.cs",
-              "RelativeDocumentMoniker": "Sesion.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\Sesion.cs",
-              "RelativeToolTip": "Sesion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T20:09:08.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FormLlamar.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormLlamar.cs",
-              "RelativeDocumentMoniker": "FormLlamar.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\FormLlamar.cs",
-              "RelativeToolTip": "FormLlamar.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:15:08.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TextBoxRedondeado.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\TextBoxRedondeado.cs",
-              "RelativeDocumentMoniker": "TextBoxRedondeado.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\TextBoxRedondeado.cs",
-              "RelativeToolTip": "TextBoxRedondeado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T16:01:52.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PanelRedondeado.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\PanelRedondeado.cs",
-              "RelativeDocumentMoniker": "PanelRedondeado.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\PanelRedondeado.cs",
-              "RelativeToolTip": "PanelRedondeado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T14:56:23.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BotonCircular.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\BotonCircular.cs",
-              "RelativeDocumentMoniker": "BotonCircular.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\BotonCircular.cs",
-              "RelativeToolTip": "BotonCircular.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T14:56:16.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "BotonRedondeado.cs",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\BotonRedondeado.cs",
-              "RelativeDocumentMoniker": "BotonRedondeado.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\BotonRedondeado.cs",
-              "RelativeToolTip": "BotonRedondeado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T15:58:28.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TextBoxRedondeado.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UTS2026\\Downloads\\proyect\\TextBoxRedondeado.cs",
-              "RelativeDocumentMoniker": "TextBoxRedondeado.cs",
-              "ToolTip": "C:\\Users\\UTS2026\\Downloads\\proyect\\TextBoxRedondeado.cs [Design]",
-              "RelativeToolTip": "TextBoxRedondeado.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T15:58:48.781Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

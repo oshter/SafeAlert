@@ -41,9 +41,10 @@
             panelRedondeado1.BackColor = Color.SteelBlue;
             panelRedondeado1.Controls.Add(botonRedondeado1);
             panelRedondeado1.Controls.Add(label1);
-            panelRedondeado1.Location = new Point(0, -18);
+            panelRedondeado1.Location = new Point(0, -30);
+            panelRedondeado1.Margin = new Padding(4, 5, 4, 5);
             panelRedondeado1.Name = "panelRedondeado1";
-            panelRedondeado1.Size = new Size(372, 80);
+            panelRedondeado1.Size = new Size(531, 133);
             panelRedondeado1.TabIndex = 2;
             // 
             // botonRedondeado1
@@ -52,9 +53,10 @@
             botonRedondeado1.FlatStyle = FlatStyle.Flat;
             botonRedondeado1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonRedondeado1.ForeColor = Color.White;
-            botonRedondeado1.Location = new Point(0, 17);
+            botonRedondeado1.Location = new Point(0, 28);
+            botonRedondeado1.Margin = new Padding(4, 5, 4, 5);
             botonRedondeado1.Name = "botonRedondeado1";
-            botonRedondeado1.Size = new Size(68, 56);
+            botonRedondeado1.Size = new Size(97, 93);
             botonRedondeado1.TabIndex = 2;
             botonRedondeado1.Text = " ←";
             botonRedondeado1.UseVisualStyleBackColor = true;
@@ -63,11 +65,12 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(96, 36);
+            label1.Location = new Point(137, 60);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(235, 25);
+            label1.Size = new Size(322, 36);
             label1.TabIndex = 3;
             label1.Text = "HISTORIAL DE REPORTES";
             // 
@@ -75,18 +78,21 @@
             // 
             dgvHistorial.BackgroundColor = Color.White;
             dgvHistorial.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvHistorial.Location = new Point(12, 68);
+            dgvHistorial.Location = new Point(17, 113);
+            dgvHistorial.Margin = new Padding(4, 5, 4, 5);
             dgvHistorial.Name = "dgvHistorial";
-            dgvHistorial.Size = new Size(345, 553);
+            dgvHistorial.RowHeadersWidth = 62;
+            dgvHistorial.Size = new Size(493, 922);
             dgvHistorial.TabIndex = 3;
             // 
             // FormHistorial
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(369, 633);
+            ClientSize = new Size(527, 1050);
             Controls.Add(dgvHistorial);
             Controls.Add(panelRedondeado1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FormHistorial";
             Text = "FormHistorial";
             Load += FormHistorial_Load;

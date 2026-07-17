@@ -5,15 +5,13 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
 using Microsoft.Data.SqlClient;
-// <--- CORRECCIÓN DE MOTOR DE BASE DE DATOS
 
 namespace proyect
 {
     public partial class FormRegistro : Form
     {
-        //private string cadenaConexion = @"DataSource=DESKTOP-N752CIB;Initial Catalog=SafeAlertDB;Integrated Security=True;";
 
-        private string cadenaConexion = @"Server=DESKTOP-N752CIB;Database=SafeAlertDB;Trusted_Connection=True;TrustServerCertificate=True;";
+        private string cadenaConexion = @"Server=AMBAR-LAP;Database=SafeAlertDB;Trusted_Connection=True;TrustServerCertificate=True;";
         private string rutaFotoSeleccionada = "";
 
         public FormRegistro()
@@ -61,7 +59,6 @@ namespace proyect
                         comando.Parameters.AddWithValue("@Nombre", nombre);
                         comando.Parameters.AddWithValue("@Telefono", telefono);
 
-                        // Validación para omitir la foto al registrarse
                         if (string.IsNullOrWhiteSpace(rutaFotoSeleccionada))
                         {
                             comando.Parameters.AddWithValue("@RutaFoto", DBNull.Value);
@@ -73,7 +70,6 @@ namespace proyect
 
                         comando.ExecuteNonQuery();
 
-                        // === GUARDADO EN LA SESIÓN GLOBAL ===
                         UsuarioSesion.Nombre = nombre;
                         UsuarioSesion.Correo = correo;
                         UsuarioSesion.Telefono = telefono;
@@ -121,11 +117,15 @@ namespace proyect
 
                 if (buscarFoto.ShowDialog() == DialogResult.OK)
                 {
-                    // Guarda la ruta de la imagen en la variable que creamos arriba en la línea 16
                     rutaFotoSeleccionada = buscarFoto.FileName;
                     MessageBox.Show("¡Foto seleccionada correctamente! Se guardará al hacer clic en Crear Cuenta.", "Imagen Lista", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
 
         }
     }
